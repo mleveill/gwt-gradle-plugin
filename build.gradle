@@ -4,6 +4,8 @@ plugins {
 task publish
 
 subprojects{
+  group='com.nexstra.gradle.plugins'
+  version='0.7'
   plugins.withType(JavaPlugin) {
     targetCompatibility = 1.8
     sourceCompatibility = 1.8

@@ -33,8 +33,6 @@ javadoc {
 	}
 }
 
-group='com.nexstra.gradle.plugins'
-version='0.7-SNAPSHOT'
 publishing {
 	publications {
 		mavenJava(MavenPublication) {
